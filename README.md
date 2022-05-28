@@ -27,10 +27,12 @@
 
 ### Image
 ## App functions
-![](https://github.com/ngntanloc/MoviApp/blob/main/Screenshot_20220325-110902.png)
-![](https://github.com/ngntanloc/MoviApp/blob/main/Screenshot_20220325-110923.png)
-![](https://github.com/ngntanloc/MoviApp/blob/main/Screenshot_20220325-110912.png)
-![](https://github.com/ngntanloc/MoviApp/blob/main/Screenshot_20220325-110935.png)
-![](https://github.com/ngntanloc/MoviApp/blob/main/Screenshot_20220325-110947.png)
+
+![](https://github.com/ngntanloc/MyMovie/blob/main/Screenshot_20220529-001030.png)
+![](https://github.com/ngntanloc/MyMovie/blob/main/Screenshot_20220529-001034.png)
+![](https://github.com/ngntanloc/MyMovie/blob/main/Screenshot_20220529-001038.png)
+![](https://github.com/ngntanloc/MyMovie/blob/main/Screenshot_20220529-001058.png)
+![](https://github.com/ngntanloc/MyMovie/blob/main/Screenshot_20220529-001103.png)
+![](https://github.com/ngntanloc/MyMovie/blob/main/Screenshot_20220529-001125.png)
 
 #### © 2022 TanLoc | fb.me/ngntanlocc

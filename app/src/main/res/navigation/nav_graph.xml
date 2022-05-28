@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/discoverFragment">
+
+    <fragment
+        android:id="@+id/discoverFragment"
+        android:name="com.example.mymovie.fragment.DiscoverFragment"
+        android:label="fragment_discover"
+        tools:layout="@layout/fragment_discover" >
+        <action
+            android:id="@+id/action_discoverFragment_to_detailMovieActivity"
+            app:destination="@id/detailMovieActivity" />
+        <action
+            android:id="@+id/action_discoverFragment_to_searchActivity"
+            app:destination="@id/searchActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/upcomingFragment"
+        android:name="com.example.mymovie.fragment.UpcomingFragment"
+        android:label="fragment_upcoming"
+        tools:layout="@layout/fragment_upcoming" >
+        <action
+            android:id="@+id/action_upcomingFragment_to_detailMovieActivity"
+            app:destination="@id/detailMovieActivity" />
+        <action
+            android:id="@+id/action_upcomingFragment_to_searchActivity"
+            app:destination="@id/searchActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.mymovie.fragment.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_favoriteFragment_to_detailMovieActivity"
+            app:destination="@id/detailMovieActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/reviewFragment"
+        android:name="com.example.mymovie.fragment.ReviewFragment"
+        android:label="fragment_review"
+        tools:layout="@layout/fragment_review" />
+    <activity
+        android:id="@+id/detailMovieActivity"
+        android:name="com.example.mymovie.DetailMovieActivity"
+        android:label="activity_detail_movie"
+        tools:layout="@layout/activity_detail_movie" >
+        <argument
+            android:name="movie_id"
+            app:argType="integer" />
+    </activity>
+    <activity
+        android:id="@+id/searchActivity"
+        android:name="com.example.mymovie.SearchActivity"
+        android:label="activity_search"
+        tools:layout="@layout/activity_search" >
+        <argument
+            android:name="queryName"
+            app:argType="string" />
+    </activity>
+</navigation>

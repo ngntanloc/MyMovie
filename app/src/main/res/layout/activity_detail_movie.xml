@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".DetailMovieActivity">
+
+    <ImageView
+        android:id="@+id/imgBackdrop"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/thor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/linear_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linear_genre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/txt_genre1"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="@dimen/margin_start_detail"
+                android:layout_marginTop="@dimen/margin_genre_top"
+                android:background="@drawable/tag_genre"
+                android:text="@string/txt_genre1"
+                android:textAllCaps="false"
+                tools:text="Fantasy"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/txt_genre2"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="@dimen/margin_start_detail"
+                android:layout_marginTop="@dimen/margin_genre_top"
+                android:background="@drawable/tag_genre"
+                android:text="@string/txt_genre2"
+                tools:text="Adventure"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/txt_genre3"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="@dimen/margin_start_detail"
+                android:layout_marginTop="@dimen/margin_genre_top"
+                android:background="@drawable/tag_genre"
+                android:text="@string/txt_genre3"
+                tools:text="Action"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/txt_imdb_button"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="@dimen/margin_start_detail"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="@dimen/a_little_margin"
+            android:background="@drawable/tag_imdb"
+            android:text="@string/imdb"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toStartOf="@id/txt_imdb_point"
+            app:layout_constraintTop_toBottomOf="@id/linear_genre" />
+
+        <TextView
+            android:id="@+id/txt_imdb_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_element"
+            android:layout_marginEnd="@dimen/margin_start_detail"
+            android:text="@string/txt_imdb_point"
+            android:textColor="#F3CE13"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@id/txt_imdb_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/txt_imdb_button" />
+
+        <TextView
+            android:id="@+id/txt_movie_title"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_start_detail"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="100dp"
+            android:text="@string/movie_detail_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_movie_detail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linear_genre" />
+
+        <TextView
+            android:id="@+id/txt_sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/sub_title_movie_detail"
+            android:textSize="@dimen/text_size_subtitle"
+            app:layout_constraintStart_toStartOf="@id/txt_movie_title"
+            app:layout_constraintTop_toBottomOf="@id/txt_movie_title" />
+
+        <TextView
+            android:id="@+id/txt_story"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_start_detail"
+            android:layout_marginEnd="@dimen/margin_start_detail"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:text="@string/movie_story"
+            app:layout_constraintStart_toStartOf="@id/txt_movie_title"
+            app:layout_constraintTop_toBottomOf="@id/txt_sub_title" />
+
+        <TextView
+            android:id="@+id/txt_sub_title_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/cast"
+            android:textSize="@dimen/text_size_subtitle"
+            app:layout_constraintStart_toStartOf="@id/txt_movie_title"
+            app:layout_constraintTop_toBottomOf="@id/txt_story" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_cast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_element"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_sub_title_2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_clicked_favorite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/round_button_login"
+        android:text="Add to Favorite List"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

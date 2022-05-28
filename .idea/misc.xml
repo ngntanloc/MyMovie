@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyMovie/app/src/main/res/drawable-v24/ic_watchlist.xml" value="0.1945" />
+        <entry key="..\:/MyMovie/app/src/main/res/drawable-v24/round_button_login.xml" value="0.165" />
+        <entry key="..\:/MyMovie/app/src/main/res/drawable/ic_back_black.xml" value="0.165" />
+        <entry key="..\:/MyMovie/app/src/main/res/drawable/ic_favorite.xml" value="0.1895" />
+        <entry key="..\:/MyMovie/app/src/main/res/drawable/linear_bg.xml" value="0.243" />
+        <entry key="..\:/MyMovie/app/src/main/res/drawable/loading_img.xml" value="0.1945" />
+        <entry key="..\:/MyMovie/app/src/main/res/drawable/tag_genre.xml" value="0.23" />
+        <entry key="..\:/MyMovie/app/src/main/res/drawable/tag_imdb.xml" value="0.23" />
+        <entry key="..\:/MyMovie/app/src/main/res/layout/activity_detail_movie.xml" value="0.25" />
+        <entry key="..\:/MyMovie/app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/MyMovie/app/src/main/res/layout/activity_search.xml" value="0.25" />
+        <entry key="..\:/MyMovie/app/src/main/res/layout/cast_item.xml" value="0.75" />
+        <entry key="..\:/MyMovie/app/src/main/res/layout/discovery_item.xml" value="0.5" />
+        <entry key="..\:/MyMovie/app/src/main/res/layout/favorite_item.xml" value="0.22" />
+        <entry key="..\:/MyMovie/app/src/main/res/layout/fragment_discover.xml" value="0.33" />
+        <entry key="..\:/MyMovie/app/src/main/res/layout/fragment_favorite.xml" value="0.25" />
+        <entry key="..\:/MyMovie/app/src/main/res/layout/fragment_review.xml" value="0.25" />
+        <entry key="..\:/MyMovie/app/src/main/res/layout/fragment_upcoming.xml" value="0.22" />
+        <entry key="..\:/MyMovie/app/src/main/res/layout/popular_item.xml" value="0.5" />
+        <entry key="..\:/MyMovie/app/src/main/res/layout/search_item.xml" value="0.25" />
+        <entry key="..\:/MyMovie/app/src/main/res/layout/upcoming_item.xml" value="0.33" />
+        <entry key="..\:/MyMovie/app/src/main/res/menu/bottom_nav_menu.xml" value="0.35052083333333334" />
+        <entry key="..\:/MyMovie/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.182" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

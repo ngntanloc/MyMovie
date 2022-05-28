@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyMovie</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="discovery">Discovery</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="favorite">Favorite</string>
+    <string name="review">Review</string>
+    <string name="search_view_hint">Looking for a movie</string>
+    <string name="popular_movies_in_this_week">Popular Movies</string>
+    <string name="new_movie_in_this_week">New movie in this week</string>
+    <string name="movie_detail_title">John Wick: Chapter 3</string>
+    <string name="sub_title_movie_detail">Story</string>
+    <string name="movie_story">Thor is a 2011 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Paramount Pictures,[N 1] it is the fourth film in the Marvel Cinematic Universe (MCU). It was directed by Kenneth Branagh, written by the writing team of Ashley Edward Miller and Zack Stentz along with Don Payne, and stars Chris Hemsworth as the title character alongside Natalie Portman, Tom Hiddleston, Stellan Skarsgård, Colm Feore, Ray Stevenson, Idris Elba, Kat Dennings, Rene Russo, and Anthony Hopkins. After reigniting a dormant war, Thor is banished from Asgard to Earth, stripped of his powers and his hammer Mjölnir. As his brother Loki (Hiddleston) plots to take the Asgardian throne, Thor must prove himself worthy</string>
+    <string name="txt_genre1">%s</string>
+    <string name="txt_genre2">%s</string>
+    <string name="txt_genre3">%s</string>
+    <string name="imdb">IMDb</string>
+    <string name="txt_imdb_point">8.5</string>
+    <string name="cast">Cast</string>
+    <string name="movie_title">%s</string>
+    <string name="imdb_point_favorite">IMDb: %s</string>
+    <string name="alert_dialog_title">Remove movie</string>
+    <string name="network_error_title">Internet Connection Alert</string>
+    <string name="network_error_content">Please check your Internet Connection</string>
+    <string name="alert_dialog_content">Are you sure want to remove %s from your favorite list?</string>
+    <string name="agree">Yes</string>
+    <string name="disagree">No</string>
+    <string name="confirm_message">Confirm</string>
+    <string name="genre_favorite">%s %s %s</string>
+    <string name="title_favorite">%s</string>
+    <string name="release_date">Release date: %s</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title">36sp</dimen>
+    <dimen name="subtitle">16sp</dimen>
+    <dimen name="padding_title">20dp</dimen>
+    <dimen name="title_movie_detail">25dp</dimen>
+    <dimen name="margin_start_detail">25dp</dimen>
+    <dimen name="margin_top_movie_title">25dp</dimen>
+    <dimen name="text_size_subtitle">20sp</dimen>
+    <dimen name="margin_genre_top">15dp</dimen>
+    <dimen name="margin_element">15dp</dimen>
+    <dimen name="a_little_margin">5dp</dimen>
+    <dimen name="movie_title">24sp</dimen>
+</resources>

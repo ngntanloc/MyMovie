@@ -1,6 +1,5 @@
 # MyMovie
 
-## You will find in this app the following stuff:
 #### Technology
 * Kotlin language.
 * REST API.

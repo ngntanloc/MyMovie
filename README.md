@@ -8,7 +8,8 @@
 * Navigation Component.
 * ROOM Database.
 * MVVM Architeture.
-* List Adapter etc..
+* List Adapter
+* etc..
 
 #### Description
 * This app is created by me.

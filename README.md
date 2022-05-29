@@ -6,7 +6,7 @@
 * Android Native.
 * Navigation Component.
 * ROOM Database.
-* MVVM Architeture.
+* MVVM Architecture.
 * List Adapter
 * etc..
 
@@ -22,7 +22,7 @@
 * In the state connected to the internet, you can see the details of a movie, click on the content to redirect to youtube, google to get more information.
 * You can also save movies to your favorite list.
 
-#### Future Developement
+#### Future Development
 * Using the firebase for backend, in MyMovie App, you can write your review about specific movie. You also can see the review from other people.
 * Connect with Cinema System, you can order the ticket by the app, see movie premiere schedule.
 
